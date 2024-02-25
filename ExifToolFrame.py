@@ -19,8 +19,7 @@ class ExifToolFrame(tk.Frame):
 
         # Display EXIF Data
         self.exif_output = scrolledtext.ScrolledText(self, wrap=tk.WORD, height=25)
-        self.exif_output.pack(pady=5)
-        # test
+        self.exif_output.pack(pady=5)        
 
         # Remove EXIF Data Button
         self.remove_exif_button = tk.Button(self, text="Remove EXIF Data", command=self.remove_exif_data)
