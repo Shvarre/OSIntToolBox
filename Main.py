@@ -7,6 +7,7 @@ from EmailCounterFrame import EmailCounterFrame
 # Create the main window
 root = tk.Tk()
 root.title("OSINT Toolkit")
+root.geometry("1000x600")
 
 # Create the tab control
 tab_control = ttk.Notebook(root)
